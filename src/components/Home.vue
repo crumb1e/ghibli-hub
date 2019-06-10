@@ -1,11 +1,6 @@
 <template>
     <div>
-        <nav class="sticky w-full z-10 top-0 bg-white">
-            <div class="flex border-b mx-auto content-center items-center justify-between mt-0 py-3">
-                <h1 class="flex-1 pl-4 text-xl font-semibold">Ghibli Hub</h1>
-                <input v-model="search" type="text" placeholder="Search..." class="flex-1 mx-6 outline-none focus:shadow-outline rounded-sm">
-            </div>
-        </nav>
+        <Nav v-model="search"/>
         <div class="mx-auto">
             <ul class="flex flex-wrap mb-4 mx-2 mt-4">
                 <li v-for="film in filteredFilms" :key="film.id" class="sm:w-1/3 w-full">
@@ -31,12 +26,14 @@
 
 <script>
 import Footer from './Footer'
+import Nav from './Nav'
 
 export default {
     name: 'Home',
 
     components: {
         Footer,
+        Nav,
     },
 
     data() {
