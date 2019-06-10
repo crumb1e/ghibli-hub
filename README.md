@@ -1,29 +1,9 @@
-# cat-bus
+# Ghibli Hub
 
-## Project setup
-```
-npm install
-```
+Check out all these cool films.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Usage
 
-### Compiles and minifies for production
-```
-npm run build
-```
+Start project locally with `npm run serve`
 
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Build with `npm run build`
