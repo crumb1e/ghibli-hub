@@ -1,6 +1,6 @@
 import Home from './components/Home.vue'
 import Characters from './components/Characters.vue'
-import FourOhFour from './components/FourOhFour.vue'
+import FourOhFour from './components/Misc/FourOhFour.vue'
 import CharacterProfile from './components/CharacterProfile.vue'
 
 export default [
