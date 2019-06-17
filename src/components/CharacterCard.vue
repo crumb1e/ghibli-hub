@@ -1,5 +1,5 @@
 <template>
-    <div @click="viewProfile" class="flex flex-col justify-between h-40 bg-teal-100 border-l-2 border-teal-600 rounded m-2 py-2 px-4 hover:shadow-md cursor-pointer">
+    <div @click="viewProfile" class="flex flex-col justify-between h-40 bg-teal-100 border-l-8 border-teal-600 rounded m-2 py-2 px-4 hover:shadow-md cursor-pointer">
         <h2 class="text-xl mb-2">
             {{ char.name }}
         </h2>
@@ -14,7 +14,7 @@
 <script>
 
 export default {
-    name: 'Character',
+    name: 'CharacterCard',
 
     props: {
         character: {
